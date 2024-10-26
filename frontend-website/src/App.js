@@ -22,7 +22,7 @@ function App() {
 
     return (
         <div>
-            <h1>Random Dog Image</h1>
+            <p>Random Dog Image</p>
             <img id="dog" src={dog} alt="A random dog" style={{ maxWidth: '300px' }} />
             <button id="fetchButton" onClick={fetchDogImage}>Fetch Dog Image</button>
 
